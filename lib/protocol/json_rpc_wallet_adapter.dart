@@ -12,10 +12,10 @@ import '../models/sign_transactions_result.dart';
 import '../utils/types.dart';
 
 
-/// JSON RPC Wallet Interface
+/// JSON RPC Wallet Adapter
 /// ------------------------------------------------------------------------------------------------
 
-abstract class JsonRpcWalletInterface {
+abstract class JsonRpcWalletAdapter {
 
   /// This method allows the dApp endpoint to request authorization from the wallet endpoint for 
   /// access to `privileged methods`. On success, it returns an [AuthorizeResult.authToken] 
